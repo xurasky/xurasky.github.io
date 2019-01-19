@@ -4,7 +4,28 @@ import * as ROUTES from "../constants/routes";
 
 const paths = [
   {
-    path: ROUTES.LANDING,
+    path: ROUTES.ROOT,
+    component: Loadable({
+      loader: () => import("../pages/landing"),
+      loading: Loading
+    })
+  },
+  {
+    path: ROUTES.PROJECTS,
+    component: Loadable({
+      loader: () => import("../pages/landing"),
+      loading: Loading
+    })
+  },
+  {
+    path: ROUTES.OTHERS,
+    component: Loadable({
+      loader: () => import("../pages/landing"),
+      loading: Loading
+    })
+  },
+  {
+    path: ROUTES.ABOUT,
     component: Loadable({
       loader: () => import("../pages/landing"),
       loading: Loading

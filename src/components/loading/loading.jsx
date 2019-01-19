@@ -1,7 +1,13 @@
-import React, { Component } from "react";
+import React from "react";
+import { Icon } from "antd";
+import "./loading.css";
 
-export default class Loading extends Component {
-  render() {
-    return <div />;
-  }
-}
+const Loading = () => {
+  return (
+    <div className="loading">
+      <Icon type="loading" />
+    </div>
+  );
+};
+
+export default Loading;

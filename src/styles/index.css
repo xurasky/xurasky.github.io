@@ -1,4 +1,9 @@
 body {
-  font-family: "Economica", sans-serif;
+  font-family: "Major Mono Display", monospace;
   margin: 0;
+}
+
+a {
+  font-family: "Major Mono Display", monospace;
+  user-select: none;
 }

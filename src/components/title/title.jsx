@@ -6,7 +6,7 @@ import "./title.css";
 const Title = ({ path }) => {
   return (
     <Helmet>
-      <title>{path} - xura.me</title>
+      <title>{path} - xura</title>
     </Helmet>
   );
 };
