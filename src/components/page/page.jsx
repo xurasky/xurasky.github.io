@@ -6,7 +6,7 @@ import "./page.css";
 
 const Page = ({ children, path }) => {
   return (
-    <div>
+    <div className="page">
       <Title path={path} />
       {children}
     </div>
